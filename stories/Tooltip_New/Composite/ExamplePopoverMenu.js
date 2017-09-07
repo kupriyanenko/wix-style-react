@@ -95,6 +95,8 @@ class ExamplePopoverMenu extends Component {
                 onChange={buttonTheme => this.setState({buttonTheme})}
                 >
                 <RadioGroup.Radio value="icon-greybackground">Icon Grey Background</RadioGroup.Radio>
+                <RadioGroup.Radio value="icon-standard">Icon Blue</RadioGroup.Radio>
+                <RadioGroup.Radio value="icon-standardsecondary">Icon Blue Secondary</RadioGroup.Radio>
                 <RadioGroup.Radio value="icon-white">Icon White</RadioGroup.Radio>
                 <RadioGroup.Radio value="icon-whitesecondary">Icon White Secondary</RadioGroup.Radio>
               </RadioGroup>
